@@ -23,18 +23,20 @@
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
 
-                        <label for="iemail"><i class="material-icons">person</i></label>
-                        <input type="email" name="email" id="iemail" required placeholder="E-mail" maxlength="30" autocomplete="email">
-
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" required placeholder="E-mail" 
+                        maxlength="30"autocomplete="email">  
+                        <label for="iemail">login</label>                     
                     </div>
                     <div class="campo">
 
-                        <label for="isenha"><i class="material-icons">key</i></label>
+                        <i class="material-icons">key</i>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" required minlength="8" maxlength="20" autocomplete="current-password">
+                        <label for="isenha">senha</label>
 
                     </div>
                     <input type="submit" value="Entrar">
-                    <a href="esqueci.html">
+                    <a class="botao" href="esqueci.html">
                         Esqueci a senha <i class="material-icons">mail</i>
                     </a>
                 </form>
